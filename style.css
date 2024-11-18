@@ -1,0 +1,46 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4; /* Light gray background */
+  color: #333; /* Dark gray text */
+}
+
+h1 {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #c00000; /* Red heading color */
+}
+
+.material {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px; /* Reduced padding */
+  background-color: #fff;
+  margin: 3px; /* Reduced margin */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.material h2 {
+  font-size: 12px; /* Slightly smaller font size */
+  font-weight: bold;
+  margin: 0;
+}
+
+.material p {
+  font-size: 9px; /* Smaller font size */
+  margin: 0;
+  font-weight: bold; /* Bold price */
+}
+
+.unit {
+  font-size: 9px; /* Even smaller font size */
+  color: #6c757d;
+  margin-left: 5px; /* Add some space */
+  display: inline-block; /* Make it inline-block */
+}
